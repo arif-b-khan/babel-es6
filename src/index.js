@@ -4,5 +4,5 @@ let result = c(10, 20);
 let subResult = sub(20, 10);
 console.log(`The subraction result is ${subResult}`);
 console.log(`The addition is ${result}`);
-console.log(`Sample application completed`);
+
 

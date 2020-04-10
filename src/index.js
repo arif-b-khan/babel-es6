@@ -1,8 +1,16 @@
-import c, {sub} from './mod1/Calculator';
+import add from './mod1/Calculator';
 
-let result = c(10, 20);
-let subResult = sub(20, 10);
-console.log(`The subraction result is ${subResult}`);
-console.log(`The addition is ${result}`);
+let result = add(1, 1);
+console.log(result);
+// function showThis(){
+//     console.log(this);
+//     console.log(Object.getPrototypeOf(this) === showThis.prototype);
+// }
 
+// showThis.prototype.testMethod = function(){
+//     console.log("this is test method");
+// }
+
+// let s = new showThis();
+// console.log(s);
 

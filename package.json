@@ -9,7 +9,7 @@
     "build": "babel src -d lib",
     "rimraf": "./node_modules/.bin/rimraf",
     "predebug": "npm run build",
-    "debug": "babel-node --inspect-brk lib/index.js",
+    "debug": "babel-node lib/index.js",
     "start": "node lib/index.js",
     "babel-node": "./node_modules/.bin/babel-node"
   },
